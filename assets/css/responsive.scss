@@ -1,0 +1,68 @@
+// LAPTOP
+@media screen and (max-width: 1025px){
+  .bestsellerSecond {
+    .card-title {
+      margin-bottom: 0px;
+    }
+    .card-text {
+      padding-top: 0px !important;
+    }
+  }
+}
+
+//TABLET
+@media screen and (max-width: 769px) {
+  #top-header-contact {
+    .numberBlock {
+      display: block;
+    }
+  }
+
+  .bestsellerSecond {
+    .card-title {
+      margin-bottom: 12px;
+    }
+    .card-text {
+      padding-top: 10px !important;
+    }
+  }
+
+  #demo {
+    .carouselFirst, .carouselSecond, .carouselThird {
+      width: 100%;
+      &-text {
+        padding: 60px 15px;
+        h2 {
+          font-size: 30px;
+          margin-bottom: 30px;
+          text-align: center;
+        }
+        p {
+          font-size: 14.5px;
+        }
+      }
+    }
+  }
+}
+
+//MOBILE L
+@media screen and(max-width: 426px) {
+  .linksBlock {
+    display: block !important;
+    text-align: center;
+    padding-bottom: 15px;
+    .col-12 {
+      padding: 10px 0px;
+    }
+  }
+
+  .newsletterForm {
+    h3 {
+      padding-top: 29px;
+    }
+    p, input {
+      width: 400px;
+    }
+    margin-bottom: 19px;
+  }
+}

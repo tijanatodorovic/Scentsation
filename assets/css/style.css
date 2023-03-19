@@ -1,0 +1,339 @@
+#top-header {
+  border-bottom: 1.5px solid black;
+}
+
+#top-header-contact a {
+  font-size: 14px;
+  border: none;
+}
+
+#top-header-contact a i {
+  color: #8c4c27;
+  text-shadow: 1px 1px 3px white, 1px 1px 2px #e67965;
+}
+
+#top-header-logo {
+  position: relative;
+  bottom: -5px;
+}
+
+#search form button {
+  font-size: 18px;
+}
+
+#cover {
+  height: 600px;
+  background-image: url(../images/1pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+#cover .gradient-cover {
+  width: inherit;
+  height: inherit;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(orange), color-stop(rgba(0, 0, 0, 0)), to(black));
+  background-image: linear-gradient(to bottom left, orange, rgba(0, 0, 0, 0), black);
+}
+
+#cover .gradient-cover .heading-info {
+  padding-top: 80px;
+}
+
+#cover .gradient-cover .heading-info .special-p {
+  position: relative;
+  margin-bottom: 40px;
+  font-family: 'Philosopher', sans-serif;
+  -webkit-animation-name: animationOne;
+          animation-name: animationOne;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+#cover .gradient-cover .heading-info .heading-no1 {
+  position: relative;
+  font-family: 'My Soul', cursive;
+  font-weight: 500;
+  font-size: 45px;
+  -webkit-animation-name: animationTwo;
+          animation-name: animationTwo;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+#cover .gradient-cover .heading-info .heading-no1 .diff-color-pink {
+  color: #8c4c27;
+  text-shadow: 1px 1px 3px white, 1px 1px 2px #e67965;
+}
+
+#cover .gradient-cover .heading-info .animationParagraphSecond, #cover .gradient-cover .heading-info .shopNowModal {
+  position: relative;
+  -webkit-animation-name: animationThree;
+          animation-name: animationThree;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+}
+
+@-webkit-keyframes animationOne {
+  from {
+    right: -1000px;
+    top: -150px;
+  }
+  to {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes animationOne {
+  from {
+    right: -1000px;
+    top: -150px;
+  }
+  to {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes animationTwo {
+  from {
+    right: -1000px;
+    top: -150px;
+  }
+  to {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes animationTwo {
+  from {
+    right: -1000px;
+    top: -150px;
+  }
+  to {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes animationThree {
+  from {
+    bottom: -1000px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+@keyframes animationThree {
+  from {
+    bottom: -1000px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+#bestseller .top-products-heading {
+  padding: 27px 0px;
+}
+
+#bestseller .top-products-heading h3 {
+  font-family: 'Philosopher', sans-serif;
+  color: #8c4c27;
+  text-shadow: 1px 1px 3px white, 1px 1px 2px #e67965;
+}
+
+#bestseller .top-products-heading h3 i {
+  color: black;
+  text-shadow: none;
+}
+
+#bestseller .top-products-cards .catalog {
+  -webkit-box-shadow: 0.5px 0.5px 7px #d6cfcb;
+          box-shadow: 0.5px 0.5px 7px #d6cfcb;
+  margin-bottom: 24px;
+}
+
+#bestseller .top-products-cards .catalog:hover {
+  -webkit-box-shadow: 0.5px 0.5px 7px #8c4c27;
+          box-shadow: 0.5px 0.5px 7px #8c4c27;
+}
+
+#bestseller .top-products-cards .catalog .card-body {
+  line-height: 2;
+}
+
+#bestseller .top-products-cards .catalog p {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+  margin-bottom: unset;
+}
+
+#bestseller .top-products-cards .catalog button {
+  font-family: 'Philosopher', sans-serif;
+  -webkit-box-shadow: 2px 2px 5px #8c4c27;
+          box-shadow: 2px 2px 5px #8c4c27;
+}
+
+#bestseller .top-products-cards .catalog .old-price {
+  color: #bb1b1b;
+  text-decoration: line-through;
+}
+
+#bestseller .top-products-cards .catalog .price-perfumes {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 19px;
+  color: #8c4c27;
+}
+
+#demo .carouselFirst, #demo .carouselSecond, #demo .carouselThird {
+  width: 1024px;
+  height: 600px;
+}
+
+#demo .carouselFirst-text, #demo .carouselSecond-text, #demo .carouselThird-text {
+  background-color: #fce3e9;
+  padding: 60px 70px;
+}
+
+#demo .carouselFirst-text h2, #demo .carouselSecond-text h2, #demo .carouselThird-text h2 {
+  font-family: 'My Soul', cursive;
+  font-size: 40px;
+  margin-bottom: 60px;
+  color: #8c4c27;
+}
+
+footer {
+  border-top: 2px solid black;
+}
+
+footer h3 {
+  font-family: 'Philosopher', sans-serif;
+}
+
+footer #social-media {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+
+footer #social-media li {
+  margin-right: 12px;
+}
+
+footer #social-media li:last-child {
+  margin-right: unset;
+}
+
+footer #social-media li a i {
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: #e67965;
+  color: #fce3e9;
+  padding: 18px;
+}
+
+footer #social-media li a i:hover {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+footer .borderDiv {
+  border-top: 3px solid #e67965;
+}
+
+footer .usefulLinks {
+  text-decoration: none;
+  color: #e67965;
+  font-style: italic;
+}
+
+footer .usefulLinks:hover {
+  font-weight: 500;
+}
+
+footer #bottomFooter {
+  background-color: #e67965;
+  margin-bottom: none;
+  font-size: 18px;
+}
+
+footer #bottomFooter a {
+  text-decoration: none;
+}
+
+footer #bottomFooter .SH {
+  font-family: 'My Soul', cursive;
+  font-size: 27px;
+  color: orange;
+  text-shadow: 2px 2px 5px black;
+}
+
+#carouselTwo {
+  width: 100%;
+  border-top: 1.5px solid black;
+}
+
+#carouselTwo .carouselProductsOne-text {
+  width: 100%;
+  padding: 90px 170px;
+  background-color: #f1dfc4;
+}
+
+#carouselTwo .carouselProductsOne-text h2 {
+  font-family: "My Soul", cursive;
+  font-size: 55px;
+}
+
+#carouselTwo .carouselProductsOne-text h3 {
+  font-family: "Philosopher", sans-serif;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+#carouselTwo .carouselProductsOne-text button {
+  font-weight: 600;
+}
+
+#carouselThree {
+  width: 100%;
+  border-top: 1.5px solid black;
+}
+
+#carouselThree .carouselMensOne-text {
+  width: 100%;
+  padding: 70px 180px;
+  background-image: -webkit-gradient(linear, right top, left top, from(black), to(#8c4c27));
+  background-image: linear-gradient(to left, black, #8c4c27);
+  color: white;
+  border-right: 4px ridge #8c4c27;
+}
+
+#carouselThree .carouselMensOne-text h2 {
+  font-family: "My Soul", cursive;
+  font-size: 55px;
+  color: orange;
+}
+
+#carouselThree .carouselMensOne-text h3 {
+  font-family: "Philosopher", sans-serif;
+  padding-left: 50px;
+  margin-bottom: 50px;
+  color: #d6cfcb;
+}
+
+#carouselThree .carouselMensOne-text h5 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 23px;
+}
+
+#carouselThree .carouselMensOne-text h5 .lowerPriceColor {
+  color: black;
+  font-weight: 700;
+  text-shadow: 0px 0px 3px orange, 0px 0px 2px #8c4c27;
+}
+/*# sourceMappingURL=style.css.map */

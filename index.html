@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SCENTSATION | Welcome to the best perfume store</title>
+    <!-- META tags -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="keywords" content="perfume, fragrance, scent, scentsation" />
+    <meta name="description" content="The best perfume store, best fragrances"/>
+    <meta name="author" content="mailto:tijana.todorovic.36.21@ict.edu.rs"/>
+    <meta name="copyright" content="Tijana Todorović @ 2022"/>
+    <meta name="robots" content="index,follow"/>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css"/>
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/f7a54f50d6.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon-perfume.ico"/>
+    <!-- Google Fonts -->
+      <!-- My Soul -->
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=My+Soul&display=swap" rel="stylesheet"/>
+      <!-- Philosopher -->
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container-fluid bg-light" id="top-header">
+        <div class="container pt-3">
+          <div class="row">
+            <div class="col-md-4 col-12 my-auto list-group-flush" id="top-header-contact">
+              <a href="#" class="list-group-item bg-light text-secondary"><i class="fa-solid fa-mobile-screen"></i>&nbsp;&nbsp; <span class="h6">Call us:</span> <span class="numberBlock">+381 60 3093999</span></a>
+              <a href="#" class="list-group-item bg-light text-secondary"><i class="fa-solid fa-envelope-open"></i>&nbsp;&nbsp;scentsation&#64;gmail.com</a>
+            </div>
+
+            <div class="col-md-4 col-12 mx-auto text-center" id="top-header-logo">
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/logo5.png" alt="logo" title="logo" width="175px" />
+              </a>
+            </div>
+
+            <div class="col-md-4 col-12 my-auto" id="search">
+              <form class="d-flex justify-content-end">
+                <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button type="button" class="btn position-relative">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+                    0
+                  </span>
+                </button>
+                <button class="btn" type="submit"><i class="fa-regular fa-heart"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NAVIGATION BAR -->
+      <nav class="navbar navbar-expand-sm bg-white navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item pe-3">
+                <a class="nav-link text-warning active" href="#">Home</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" href="#About us">About Us</a>
+              </li>    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" 
+                data-bs-toggle="dropdown">Products</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="products.html">Women's perfumes</a></li>
+                  <li><a class="dropdown-item" href="men.html">Men's perfumes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="https://portfoliotijanatodorovic.000webhostapp.com/index.html" target="_blank">Author</a>
+              </li>       
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- COVER-section -->
+    <div class="container-fluid px-0" id="cover">
+      <div class="gradient-cover">
+        <div class="container-fluid">
+          <div class="row d-flex">
+            <div class="col-7"></div>
+            <div class="col-5 heading-info">
+              <p class="h5 text-center special-p">Most Popular Perfume & Cologne Brands</p>
+              <h1 class="text-center heading-no1"><span class="diff-color-pink">B</span>est<span class="diff-color-pink"> F</span>ragrances</h1>
+              <p class="text-center animationParagraphSecond">Scentsation is the place where you can get high-quality fragrances from certified consultants, who are not just professionals but also talented masters.</p>
+              <div class="container text-center shopNowModal">
+                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" 
+                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Shop now</button>
+              </div>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"  aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Order</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="email" class="col-form-label">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter your e-mail">
+                        </div>
+                        <div class="mb-3">
+                          <label for="phoneNumber" class="col-form-label">Phone number:</label>
+                          <input type="tel" class="form-control" id="phoneNumber" placeholder="Your phone number">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Message:</label>
+                          <textarea class="form-control" id="message-text" placeholder="Product"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-warning">Send message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Popular products -->
+    <div class="container my-5" id="bestseller">
+      <div class="row text-center top-products-heading">
+        <h3 class="text-uppercase"><i class="fa-solid fa-angles-left"></i>&nbsp;Top Products&nbsp;<i class="fa-solid fa-angles-right"></i></h3>
+        <p class="text-muted">You will love we have done</p>
+      </div>
+      <div class="row d-flex top-products-cards">
+        <div class="col-md-6 col-lg-3 col-12 bestsellerFirst">
+          <div class="card catalog">
+            <img class="card-img-top" src="assets/images/pacoRabanne_Olympea.png" alt="Card image 1" style="width:100%">
+            <div class="card-body">
+              <p class="text-center">Paco Rabanne</p>
+              <h4 class="card-title text-center">Olympea</h4>
+              <p class="card-text text-center pt-3"> <span class="old-price">87&euro;</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="price-perfumes">80&euro;</span></p>
+              <button type="button" class="btn btn-dark">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-12 bestsellerSecond">
+          <div class="card catalog">
+            <img class="card-img-top" src="assets/images/maisonFrancisKurkdijan_BaccaratRouge540.png" alt="Card image 2" style="width:100%">
+            <div class="card-body">
+              <p class="text-center MFKurkdjian">Maison Francis Kurkdjian</p>
+              <h4 class="card-title text-center">Baccarat Rouge 540</h4>
+              <p class="card-text text-center pt-3"><span class="price-perfumes">445&euro;</span></p>
+              <button type="button" class="btn btn-dark">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-12 bestsellerThird">
+          <div class="card catalog">
+            <img class="card-img-top" src="assets/images/calvinKlein_EuphoriaIntense.png" alt="Card image 3" style="width:100%">
+            <div class="card-body">
+              <p class="text-center">Calvin Klein</p>
+              <h4 class="card-title text-center">Euphoria Intense</h4>
+              <p class="card-text text-center pt-3"> <span class="old-price">70&euro;</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="price-perfumes">65&euro;</span></p>
+              <button type="button" class="btn btn-dark">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-12 bestsellerFourth">
+          <div class="card catalog">
+            <img class="card-img-top" src="assets/images/armani_MyWay.png" alt="Card image 4" style="width:100%">
+            <div class="card-body">
+              <p class="text-center">Giorgio Armani</p>
+              <h4 class="card-title text-center">My Way Florale</h4>
+              <p class="card-text text-center pt-3"><span class="price-perfumes">78&euro;</span></p>
+              <button type="button" class="btn btn-dark">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="bg-warning active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="bg-warning"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="bg-warning"></button>
+      </div>
+    
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex mx-auto carouselFirst">
+            <div class="carouselFirst-text">
+              <h2 id="About us">High-Quality Fragrances</h2>
+              <p>Established in 2022, Scentsation is here to open you an absolutely new world, full of sensuality and positive emotions.</p>
+              <p>We are the largest fragrance retailer with over 260 stores nationwide, selling all major designer fragrance brands, classic and celebrity perfumes at very affordable prices.</p>
+            </div>
+            <div class="carouselFirst-pic">
+              <img src="assets/images/chloe.png" alt="Perfume Chloe-Love Story" title="Perfume Chloe-Love Story" height="600px"/>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex mx-auto carouselSecond">
+            <div class="carouselSecond-pic">
+              <img src="assets/images/coco_chanell.png" alt="Perfume Coco Chanell" title="Perfume Coco Chanell" height="600px"/>
+            </div>
+            <div class="carouselSecond-text">
+              <h2><span class="text-danger">*</span> Aromas <span class="text-danger">*</span></h2>
+              <p>Given that the start of recorded history, people have actually attempted to mask or improve their very own odor by utilizing fragrance, which replicates nature's pleasurable smells.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex mx-auto carouselThird">
+            <div class="carouselThird-pic">
+              <img src="assets/images/my_burberry_sale.png" alt="Perfume Coco Chanell" title="Perfume Coco Chanell" 
+              height="600px"/>
+            </div>
+            <div class="carouselThird-text">
+              <h2 class="text-center">Get 30% of our New Collection</h2>
+              <h4>Use the code &quot;SCENTSATION30&quot;</h4>
+              <p>Pick your new perfume from our exclusive collection, which is available for purchase until the end of December.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Shop Now and get 30%
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Sponsors -->
+    <div class="container mx-auto p-4">
+      <img src="assets/images/sponsors.png" alt="Sponsros" title="Sposnsors" width="100%"/>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid d-flex pt-5 mb-4 bg-light" id="topFooter">
+        <div class="row mx-auto">
+          <div class="col-md-5 col-lg-4 col-12">
+            <h3>Follow us</h3>
+            <div class="container d-flex " id="social-media">
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+            </div>
+          </div>
+          <div class="col-md-7 col-lg-8 col-12 newsletterForm">
+            <h3>Newsletter</h3>
+            <p class="text-muted">Give us your email and you will be daily updated with the latest events, in detail!</p>
+            <input type="email" class="form-control" id="email" placeholder="Enter your e-mail">
+            <button type="button" class="btn btn-dark mt-2">Send</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-4 borderDiv"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="container d-flex linksBlock">
+
+            <div class="col-sm-3 col-lg-3 col-12">
+              <h3>Useful links</h3>
+              <a href="contact.html" class="d-block usefulLinks">Help & Contact Us</a>
+              <a href="#" class="usefulLinks">Terms & Conditions</a>
+            </div>
+            <div class="col-sm-3 col-lg-3 col-12">
+              <h3>Company</h3>
+              <a href="#" class="d-block usefulLinks">About</a>
+              <a href="#" class="d-block usefulLinks">Our team</a>
+              <a href="#" class="usefulLinks">FAQ</a>
+            </div>
+
+            <div class="col-sm-3 col-lg-3 col-12">
+              <h3>Categories</h3>
+              <a href="men.html" class="d-block usefulLinks">Men's</a>
+              <a href="#" class="d-block usefulLinks">Taster fragrances</a>
+              <a href="#" class="d-block usefulLinks">Unisex</a>
+              <a href="products.html" class="usefulLinks">Women's</a>
+            </div>
+            <div class="col-sm-3 col-lg-3 col-12">
+              <h3>Contact Information</h3>
+              <p>Contact Us:&nbsp;&nbsp;<a href="#" class="usefulLinks">+381 60 3093999</a></p>
+              <p>Adress:&nbsp;&nbsp;<a href="#" class="usefulLinks">Uralska 36, Belgrade</a></p>
+              <p>Working time:&nbsp;&nbsp;<a href="#" class="usefulLinks">Mon-Sat (08:00-20:00)</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-3" id="bottomFooter">
+        <p class="text-center">&copy; 2023 <a href="index.html"><span class="SH">Scentsation</span></a>&nbsp; Online Store.</p>
+      </div>
+    </footer>
+    
+
+    
+
+
+
+
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+@media screen and (max-width: 1025px) {
+  .bestsellerSecond .card-title {
+    margin-bottom: 0px;
+  }
+  .bestsellerSecond .card-text {
+    padding-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #top-header-contact .numberBlock {
+    display: block;
+  }
+  .bestsellerSecond .card-title {
+    margin-bottom: 12px;
+  }
+  .bestsellerSecond .card-text {
+    padding-top: 10px !important;
+  }
+  #demo .carouselFirst, #demo .carouselSecond, #demo .carouselThird {
+    width: 100%;
+  }
+  #demo .carouselFirst-text, #demo .carouselSecond-text, #demo .carouselThird-text {
+    padding: 60px 15px;
+  }
+  #demo .carouselFirst-text h2, #demo .carouselSecond-text h2, #demo .carouselThird-text h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #demo .carouselFirst-text p, #demo .carouselSecond-text p, #demo .carouselThird-text p {
+    font-size: 14.5px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .linksBlock {
+    display: block !important;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .linksBlock .col-12 {
+    padding: 10px 0px;
+  }
+  .newsletterForm {
+    margin-bottom: 19px;
+  }
+  .newsletterForm h3 {
+    padding-top: 29px;
+  }
+  .newsletterForm p, .newsletterForm input {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

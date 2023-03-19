@@ -1,0 +1,285 @@
+//Colors
+$brown:#8c4c27;
+$babyPink:#e67965;
+$whiteLighter:#fce3e9;
+$whiteGrey:#d6cfcb;
+$whiteYellow:#f1dfc4;
+
+//Fonts:
+$mySoul: 'My Soul', cursive;
+$Philosopher:  'Philosopher', sans-serif;
+
+#top-header {
+  border-bottom: 1.5px solid black;
+}
+#top-header-contact {
+  a {
+    font-size: 14px;
+    border: none;
+    i {
+      color: $brown;
+      text-shadow: 1px 1px 3px white,1px 1px 2px $babyPink;
+    }
+  }
+}
+
+#top-header-logo {
+  position: relative;
+  bottom: -5px;
+}
+
+#search {
+  form {
+    button {
+      font-size: 18px;
+    }
+  }
+}
+
+#cover {
+  height: 600px;
+  background-image: url(../images/1pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  .gradient-cover {
+    width: inherit;
+    height: inherit;
+    background-image: linear-gradient(to bottom left, orange, rgba(0, 0, 0, 0), black);
+    .heading-info {
+      padding-top: 80px;
+      .special-p {
+        position: relative;
+        margin-bottom: 40px;
+        font-family: 'Philosopher', sans-serif;
+        animation-name: animationOne;
+        animation-duration: 2s;
+      }
+      .heading-no1 {
+        position: relative;
+        font-family: 'My Soul', cursive;
+        font-weight: 500;
+        font-size: 45px;
+        animation-name: animationTwo;
+        animation-duration: 3s;
+        .diff-color-pink {
+          color: $brown;
+          text-shadow: 1px 1px 3px white,1px 1px 2px $babyPink;
+        }
+      }
+      .animationParagraphSecond, .shopNowModal {
+        position: relative;
+        animation-name: animationThree;
+        animation-duration: 3.5s;
+      }
+    }
+  } 
+}
+
+// Animations keyframes
+@keyframes animationOne {
+  from{right: -1000px; top: -150px;}
+  to{right: 0px; top: 0px;}
+}
+
+@keyframes animationTwo {
+  from{right: -1000px; top: -150px;}
+  to{right: 0px; top: 0px;}
+}
+
+@keyframes animationThree {
+  from{bottom: -1000px;}
+  to{bottom: 0px;}
+}
+
+// Bestsellers section
+#bestseller {
+  .top-products-heading {
+    padding: 27px 0px;
+    h3 {
+      font-family: 'Philosopher', sans-serif;
+      color: $brown;
+      text-shadow: 1px 1px 3px white,1px 1px 2px $babyPink;
+      i {
+        color: black;
+        text-shadow: none;
+      }
+    }
+  }
+
+  .top-products-cards {
+    .catalog {
+      box-shadow: 0.5px 0.5px 7px $whiteGrey;
+      margin-bottom: 24px;
+      &:hover {
+        box-shadow:0.5px 0.5px 7px $brown;
+      }
+      .card-body {
+        line-height: 2;
+      }
+      p {
+        font: {
+          family:'Philosopher', sans-serif;
+          size: 16px;
+        }
+        margin-bottom: unset;
+      }
+      button {
+        font-family: 'Philosopher', sans-serif;
+        box-shadow: 2px 2px 5px $brown;
+      }
+      .old-price {
+        color: rgb(187, 27, 27);
+        text-decoration: line-through;
+      }
+      .price-perfumes {
+        font-family: 'Philosopher', sans-serif;
+        font-size: 19px;
+        color:$brown ;
+      }
+    }
+  }
+}
+
+// CAROUSEL
+#demo {
+  .carouselFirst, .carouselSecond, .carouselThird {
+    width: 1024px;
+    height: 600px;
+    &-text {
+      background-color: $whiteLighter;
+      padding: 60px 70px;
+      h2 {
+        font: {
+          family:'My Soul', cursive;
+          size: 40px;
+        }
+        margin-bottom: 60px;
+        color: $brown;
+      }
+    }
+  }
+}
+
+// FOOTER
+footer {
+  border-top: 2px solid black;
+  h3 {
+    font-family:  'Philosopher', sans-serif;
+  }
+  #social-media {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 200px;
+    li {
+      margin-right: 12px;
+
+      &:last-child {
+        margin-right: unset;
+      }
+      a {
+        i {
+          font-size: 18px;
+          border-radius: 50%;
+          background-color: $babyPink;
+          color:$whiteLighter ;
+          padding: 18px;
+          &:hover {
+            color: white;
+            text-shadow: 2px 2px 4px black;
+          }
+        }
+      }
+    }
+  }
+  .borderDiv {
+    border-top: 3px solid $babyPink;
+  }
+  .usefulLinks {
+    text-decoration: none;
+    color: $babyPink;
+    font-style: italic;
+    &:hover {
+      font-weight: 500;
+    }
+  }
+  #bottomFooter {
+    background-color: $babyPink;
+    margin-bottom: none;
+    font-size: 18px;
+    a {
+      text-decoration: none;
+    }
+    .SH {
+      font-family: 'My Soul', cursive;
+      font-size: 27px;
+      color: orange;
+      text-shadow: 2px 2px 5px black;
+    }
+  }
+}
+
+
+// PRODUCTS PAGE
+#carouselTwo {
+  width: 100%;
+  border-top: 1.5px solid black;
+  .carouselProductsOne-text {
+    width: 100%;
+    padding: 90px 170px;
+    background-color: $whiteYellow;
+    h2 {
+      font-family:$mySoul;
+      font-size: 55px;
+    }
+    h3 {
+      font-family: $Philosopher ;
+      padding-left: 50px;
+      margin-bottom: 50px;
+    }
+    button {
+      font-weight: 600;
+    }
+  }
+}
+
+// MEN PAGE
+#carouselThree {
+  width: 100%;
+  border-top: 1.5px solid black;
+  .carouselMensOne-text {
+    width: 100%;
+    padding: 70px 180px;
+    background-image: linear-gradient(to left, black, $brown);
+    color: white;
+    border-right: 4px ridge $brown;
+    h2 {
+      font: {
+        family: $mySoul;
+        size: 55px;
+      }
+      color: orange;
+    }
+    h3 {
+      font-family: $Philosopher;
+      padding-left: 50px;
+      margin-bottom: 50px;
+      color: $whiteGrey;
+    }
+    h5 {
+      font-family: $Philosopher;
+      font-size: 23px;
+      .lowerPriceColor {
+        color: black;
+        font-weight: 700;
+        text-shadow: 0px 0px 3px orange, 0px 0px 2px $brown ;
+      }
+    }
+  }
+}
+
+
+
+
+
